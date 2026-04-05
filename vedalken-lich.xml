@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
 	<info>
 		<name>Vedalken - Lich (Morrigan Xanderreef)</name>
@@ -12,13 +12,13 @@
 		<description>
 			<p><strong>Morrigan Xanderreef</strong> was a revered Speaker of Spirits within Cnidaria and necromancer, known for his mastery of life and death and his ruthless political strategies.</p>
 
-			<p class="indent">A master of necromancy, Morrigan possessed a profound understanding of life, death, and arcane manipulation. His experiments were precise, calculated, and deeply scholarly—yet driven by a desire to rival the gods themselves.</p>
+			<p>A master of necromancy, Morrigan possessed a profound understanding of life, death, and arcane manipulation. His experiments were precise, calculated, and deeply scholarly—yet driven by a desire to rival the gods themselves.</p>
 
-			<p class="indent">Despite his intellect, Morrigan was flamboyant, arrogant, and indulgent. He reveled in attention, weaving grand narratives about his power and destiny while manipulating those around him.</p>
+			<p>Despite his intellect, Morrigan was flamboyant, arrogant, and indulgent. He reveled in attention, weaving grand narratives about his power and destiny while manipulating those around him.</p>
 
-			<p class="indent">Warned of a coming cataclysm, Morrigan chose not salvation—but escape. Through lichdom, he abandoned responsibility and embraced eternal freedom.</p>
+			<p>Warned of a coming cataclysm, Morrigan chose not salvation—but escape. Through lichdom, he abandoned responsibility and embraced eternal freedom.</p>
 
-			<p class="indent">Now known as the Sovereign of the Maelstrom, Morrigan exists in decadent unlife, pursuing power, chaos, and domination over death itself.</p>
+			<p>Now known as the Sovereign of the Maelstrom, Morrigan exists in decadent unlife, pursuing power, chaos, and domination over death itself.</p>
 		</description>
 
 		<setters>
@@ -122,9 +122,9 @@
 			<p><strong>Legendary Action Uses:</strong> 3 (4 in Lair).</p>
 			<p>Immediately after another creature's turn, the lich can expend a use to take one of the following actions.</p>
 
-			<p class="indent"><strong>Deathly Teleport.</strong> Teleport 60 ft; nearby creatures take necrotic damage.</p>
-			<p class="indent"><strong>Disrupt Life.</strong> AoE necrotic damage.</p>
-			<p class="indent"><strong>Frightening Gaze.</strong> Cast Fear.</p>
+			<p><strong>Deathly Teleport.</strong> Teleport 60 ft; nearby creatures take necrotic damage.</p>
+			<p><strong>Disrupt Life.</strong> AoE necrotic damage.</p>
+			<p><strong>Frightening Gaze.</strong> Cast Fear.</p>
 		</description>
 		<sheet>
 			<description>3 Legendary Actions per round.</description>
