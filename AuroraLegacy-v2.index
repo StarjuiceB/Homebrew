@@ -8,7 +8,4 @@
       <file name="AuroraLegacy-v2.index" url="https://raw.githubusercontent.com/StarjuiceB/Homebrew/main/AuroraLegacy-v2.index" />
     </update>
   </info>
-  <files>
-    <file name="vedalken-lich-v2.xml" url="https://raw.githubusercontent.com/StarjuiceB/Homebrew/main/vedalken-lich-v2.xml" />
-  </files>
 </index>
