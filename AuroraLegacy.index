@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <name>Aurora Legacy</name>
+    <description>Homebrew content</description>
+    <author>Aurora Legacy Team</author>
+  </info>
+
+  <files>
+    <file name="vedalken-lich.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/main/vedalken-lich.xml"/>
+  </files>
+</index>
