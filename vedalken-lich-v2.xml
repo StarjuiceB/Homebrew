@@ -21,6 +21,10 @@
       <p>Now known as the Sovereign of the Maelstrom, Morrigan exists in decadent unlife, pursuing power, chaos, and domination over death itself.</p>
     </description>
 
+    <setters>
+      <set name="names-format">Morrigan Xanderreef</set>
+    </setters>
+
     <sheet display="false"/>
 
     <rules>
