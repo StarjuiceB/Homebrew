@@ -3,10 +3,10 @@
   <info>
     <name>Aurora Legacy</name>
     <description>Homebrew content</description>
-    <author>Aurora Legacy Team</author>
+    <author>Dion</author>
   </info>
 
   <files>
-    <file name="vedalken-lich-v2.xml" url="https://github.com/StarjuiceB/Homebrew/blob/main/vedalken-lich-v2.xml"/>
+    <file name="vedalken-lich-v2.xml" url="https://raw.githubusercontent.com/StarjuiceB/Homebrew/main/vedalken-lich-v2.xml"/>
   </files>
 </index>
