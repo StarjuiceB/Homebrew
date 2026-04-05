@@ -1,185 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
-	<info>
-		<name>Vedalken - Lich (Morrigan Xanderreef)</name>
-		<description>Legendary Vedalken Lich NPC</description>
-		<author>Homebrew</author>
-	</info>
+  <info>
+    <name>Vedalken - Lich (Morrigan Xanderreef)</name>
+    <description>Legendary Vedalken Lich NPC</description>
+    <author>Homebrew</author>
+  </info>
 
-	<!-- ===================== RACE ===================== -->
+  <!-- ===================== RACE ===================== -->
 
-	<element name="Vedalken - Lich (Morrigan Xanderreef)" type="Race" source="Dragonlance Homebrew" id="ID_RACE_VEDALKEN_LICH_MORRIGAN">
-		<description>
-			<p><strong>Morrigan Xanderreef</strong> was a revered Speaker of Spirits within Cnidaria and necromancer, known for his mastery of life and death and his ruthless political strategies.</p>
+  <element name="Vedalken - Lich (Morrigan Xanderreef)" type="Race" source="Dragonlance Homebrew" id="ID_RACE_VEDALKEN_LICH_MORRIGAN">
+    <description>
+      <p><strong>Morrigan Xanderreef</strong> was a revered Speaker of Spirits within Cnidaria and necromancer, known for his mastery of life and death and his ruthless political strategies.</p>
 
-			<p>A master of necromancy, Morrigan possessed a profound understanding of life, death, and arcane manipulation. His experiments were precise, calculated, and deeply scholarly—yet driven by a desire to rival the gods themselves.</p>
+      <p>A master of necromancy, Morrigan possessed a profound understanding of life, death, and arcane manipulation. His experiments were precise, calculated, and deeply scholarly - yet driven by a desire to rival the gods themselves.</p>
 
-			<p>Despite his intellect, Morrigan was flamboyant, arrogant, and indulgent. He reveled in attention, weaving grand narratives about his power and destiny while manipulating those around him.</p>
+      <p>Despite his intellect, Morrigan was flamboyant, arrogant, and indulgent. He reveled in attention, weaving grand narratives about his power and destiny while manipulating those around him.</p>
 
-			<p>Warned of a coming cataclysm, Morrigan chose not salvation—but escape. Through lichdom, he abandoned responsibility and embraced eternal freedom.</p>
+      <p>Warned of a coming cataclysm, Morrigan chose not salvation - but escape. Through lichdom, he abandoned responsibility and embraced eternal freedom.</p>
 
-			<p>Now known as the Sovereign of the Maelstrom, Morrigan exists in decadent unlife, pursuing power, chaos, and domination over death itself.</p>
-		</description>
+      <p>Now known as the Sovereign of the Maelstrom, Morrigan exists in decadent unlife, pursuing power, chaos, and domination over death itself.</p>
+    </description>
 
-		<setters>
-			<set name="names-format">Morrigan Xanderreef</set>
-		</setters>
+    <setters>
+      <set name="names-format">Morrigan Xanderreef</set>
+    </setters>
 
-		<sheet display="false" />
+    <sheet display="false"/>
 
-		<rules>
-			<stat name="intelligence" value="4" />
-			<stat name="wisdom" value="2" />
-			<stat name="charisma" value="4" />
+    <rules>
+      <stat name="intelligence" value="4"/>
+      <stat name="wisdom" value="2"/>
+      <stat name="charisma" value="4"/>
 
-			<stat name="innate speed" value="30" bonus="base" />
-			<grant type="Size" id="ID_SIZE_MEDIUM" />
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_MEDIUM"/>
 
-			<!-- TRAITS -->
-			<grant type="Racial Trait" id="ID_LICH_TRAIT_WILLPOWER" />
-			<grant type="Racial Trait" id="ID_LICH_TRAIT_LEGENDARY_ACTIONS" />
-			<grant type="Racial Trait" id="ID_LICH_TRAIT_SPEAKER_CORRUPTION" />
-			<grant type="Racial Trait" id="ID_LICH_TRAIT_PHYSIOLOGY" />
-			<grant type="Racial Trait" id="ID_LICH_TRAIT_PARALYZING_TOUCH" />
-			<grant type="Racial Trait" id="ID_LICH_TRAIT_FEAR_AURA" />
-			<grant type="Racial Trait" id="ID_LICH_TRAIT_LEG_RES" />
-			<grant type="Racial Trait" id="ID_LICH_TRAIT_PHYLACTERY" />
-			<grant type="Racial Trait" id="ID_LICH_TRAIT_PERFECT_UNDEATH" />
-			<grant type="Racial Trait" id="ID_TRAIT_FOUR_ARMED" />
-		</rules>
-	</element>
+      <grant type="Racial Trait" id="ID_LICH_TRAIT_WILLPOWER"/>
+      <grant type="Racial Trait" id="ID_LICH_TRAIT_LEGENDARY_ACTIONS"/>
+      <grant type="Racial Trait" id="ID_LICH_TRAIT_SPEAKER_CORRUPTION"/>
+      <grant type="Racial Trait" id="ID_LICH_TRAIT_PHYSIOLOGY"/>
+      <grant type="Racial Trait" id="ID_LICH_TRAIT_PARALYZING_TOUCH"/>
+      <grant type="Racial Trait" id="ID_LICH_TRAIT_FEAR_AURA"/>
+      <grant type="Racial Trait" id="ID_LICH_TRAIT_LEG_RES"/>
+      <grant type="Racial Trait" id="ID_LICH_TRAIT_PHYLACTERY"/>
+      <grant type="Racial Trait" id="ID_LICH_TRAIT_PERFECT_UNDEATH"/>
+      <grant type="Racial Trait" id="ID_TRAIT_FOUR_ARMED"/>
+    </rules>
+  </element>
 
-	<!-- ===================== TRAITS ===================== -->
+  <!-- ===================== TRAITS ===================== -->
 
-	<element name="Four Armed" type="Racial Trait" source="Homebrew" id="ID_TRAIT_FOUR_ARMED">
-		<description>
-			<p>You have four slender arms that can hold and manipulate objects, or be used to cast spells.</p>
-			<p>Only two may be used to wield weapons or shields at any time.</p>
-		</description>
-		<sheet>
-			<description>Four arms; only two usable for weapons/shields.</description>
-		</sheet>
-	</element>
+  <element name="Four Armed" type="Racial Trait" source="Homebrew" id="ID_TRAIT_FOUR_ARMED">
+    <description>
+      <p>You have four slender arms that can hold and manipulate objects, or be used to cast spells.</p>
+      <p>Only two may be used to wield weapons or shields at any time.</p>
+    </description>
+    <sheet>
+      <description>Four arms; only two usable for weapons/shields.</description>
+    </sheet>
+  </element>
 
-	<!-- PERFECT UNDEATH -->
-	<element name="Perfect Undeath" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_PERFECT_UNDEATH">
-		<description>
-			<p>Your form is sustained entirely by necromantic will.</p>
-			<p>You are immune to effects that would reduce your maximum hit points, age you, or magically alter your form against your will.</p>
-		</description>
-		<sheet>
-			<description>Immune to max HP reduction, aging, and forced transformation.</description>
-		</sheet>
-	</element>
+  <element name="Perfect Undeath" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_PERFECT_UNDEATH">
+    <description>
+      <p>Your form is sustained entirely by necromantic will.</p>
+      <p>You are immune to effects that would reduce your maximum hit points, age you, or magically alter your form against your will.</p>
+    </description>
+    <sheet>
+      <description>Immune to max HP reduction, aging, and forced transformation.</description>
+    </sheet>
+  </element>
 
-	<!-- LICH PHYSIOLOGY -->
-	<element name="Lich Physiology" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_PHYSIOLOGY">
-		<description>
-			<p>You are an undead creature.</p>
+  <element name="Lich Physiology" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_PHYSIOLOGY">
+    <description>
+      <p>You are an undead creature.</p>
 
-			<p><strong>Damage Immunities:</strong> Cold, Lightning, Necrotic, Poison.</p>
-			<p><strong>Condition Immunities:</strong> Charmed, Exhaustion, Frightened, Paralyzed, Poisoned.</p>
+      <p><strong>Damage Immunities:</strong> Cold, Lightning, Necrotic, Poison.</p>
+      <p><strong>Condition Immunities:</strong> Charmed, Exhaustion, Frightened, Paralyzed, Poisoned.</p>
 
-			<p><strong>Additional Immunities (3E Lich):</strong> You are immune to polymorph effects (though you may choose to be affected by polymorph effects you cast on yourself) and all mind-affecting effects.</p>
+      <p><strong>Additional Immunities (3E Lich):</strong> You are immune to polymorph effects (though you may choose to be affected by polymorph effects you cast on yourself) and all mind-affecting effects.</p>
 
-			<p>You do not have a Constitution score.</p>
-		</description>
+      <p>You do not have a Constitution score.</p>
+    </description>
 
-		<sheet>
-			<description>
-				Undead. Immune: cold, lightning, necrotic, poison. Immune: charmed, frightened, paralyzed, poisoned, exhaustion. 
-				Immune to polymorph (self-exception) and mind-affecting effects.
-			</description>
-		</sheet>
+    <sheet>
+      <description>Undead. Immune: cold, lightning, necrotic, poison. Immune: charmed, frightened, paralyzed, poisoned, exhaustion. Immune to polymorph (self-exception) and mind-affecting effects.</description>
+    </sheet>
 
-		<rules>
-			<grant type="Damage Immunity" id="ID_DAMAGE_IMMUNITY_COLD" />
-			<grant type="Damage Immunity" id="ID_DAMAGE_IMMUNITY_LIGHTNING" />
-			<grant type="Damage Immunity" id="ID_DAMAGE_IMMUNITY_NECROTIC" />
-			<grant type="Damage Immunity" id="ID_DAMAGE_IMMUNITY_POISON" />
+    <rules>
+      <grant type="Damage Immunity" id="ID_DAMAGE_IMMUNITY_COLD"/>
+      <grant type="Damage Immunity" id="ID_DAMAGE_IMMUNITY_LIGHTNING"/>
+      <grant type="Damage Immunity" id="ID_DAMAGE_IMMUNITY_NECROTIC"/>
+      <grant type="Damage Immunity" id="ID_DAMAGE_IMMUNITY_POISON"/>
 
-			<grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_CHARMED" />
-			<grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_EXHAUSTION" />
-			<grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_FRIGHTENED" />
-			<grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_PARALYZED" />
-			<grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_POISONED" />
-		</rules>
-	</element>
+      <grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_CHARMED"/>
+      <grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_EXHAUSTION"/>
+      <grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_FRIGHTENED"/>
+      <grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_PARALYZED"/>
+      <grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_POISONED"/>
+    </rules>
+  </element>
 
-	<!-- WILLPOWER -->
-	<element name="Lich's Willpower" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_WILLPOWER">
-		<description>
-			<p>Your maximum hit points can't be reduced by any means.</p>
-		</description>
-		<sheet>
-			<description>Your maximum hit points can't be reduced.</description>
-		</sheet>
-	</element>
+  <element name="Lich's Willpower" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_WILLPOWER">
+    <description>
+      <p>Your maximum hit points can't be reduced by any means.</p>
+    </description>
+    <sheet>
+      <description>Your maximum hit points can't be reduced.</description>
+    </sheet>
+  </element>
 
-	<!-- LEGENDARY ACTIONS -->
-	<element name="Legendary Actions" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_LEGENDARY_ACTIONS">
-		<description>
-			<p><strong>Legendary Action Uses:</strong> 3 (4 in Lair).</p>
-			<p>Immediately after another creature's turn, the lich can expend a use to take one of the following actions.</p>
+  <element name="Legendary Actions" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_LEGENDARY_ACTIONS">
+    <description>
+      <p><strong>Legendary Action Uses:</strong> 3 (4 in Lair).</p>
+      <p>Immediately after another creature's turn, the lich can expend a use to take one of the following actions.</p>
 
-			<p><strong>Deathly Teleport.</strong> Teleport 60 ft; nearby creatures take necrotic damage.</p>
-			<p><strong>Disrupt Life.</strong> AoE necrotic damage.</p>
-			<p><strong>Frightening Gaze.</strong> Cast Fear.</p>
-		</description>
-		<sheet>
-			<description>3 Legendary Actions per round.</description>
-		</sheet>
-	</element>
+      <p><strong>Deathly Teleport.</strong> Teleport 60 ft; nearby creatures take necrotic damage.</p>
+      <p><strong>Disrupt Life.</strong> AoE necrotic damage.</p>
+      <p><strong>Frightening Gaze.</strong> Cast Fear.</p>
+    </description>
+    <sheet>
+      <description>3 Legendary Actions per round.</description>
+    </sheet>
+  </element>
 
-	<!-- SPEAKER -->
-	<element name="Speaker's Corruption" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_SPEAKER_CORRUPTION">
-		<description>
-			<p>As an action, charm all summoned creatures within 120 ft (DC 18 Wis, 1 min).</p>
-		</description>
-		<sheet>
-			<description>Charm summons (120 ft).</description>
-		</sheet>
-	</element>
+  <element name="Speaker's Corruption" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_SPEAKER_CORRUPTION">
+    <description>
+      <p>As an action, charm all summoned creatures within 120 ft (DC 18 Wis, 1 min).</p>
+    </description>
+    <sheet>
+      <description>Charm summons (120 ft).</description>
+    </sheet>
+  </element>
 
-	<!-- PHYLACTERY -->
-	<element name="Spirit Jar" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_PHYLACTERY">
-		<description>
-			<p>If destroyed, you reform in 1d10 days as long as your phylactery exists.</p>
-			<p>You regain all hit points upon reforming.</p>
-		</description>
-		<sheet>
-			<description>Reform in 1d10 days if phylactery survives.</description>
-		</sheet>
-	</element>
+  <element name="Spirit Jar" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_PHYLACTERY">
+    <description>
+      <p>If destroyed, you reform in 1d10 days as long as your phylactery exists.</p>
+      <p>You regain all hit points upon reforming.</p>
+    </description>
+    <sheet>
+      <description>Reform in 1d10 days if phylactery survives.</description>
+    </sheet>
+  </element>
 
-	<!-- LEGENDARY RESISTANCE -->
-	<element name="Legendary Resistance" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_LEG_RES">
-		<description>
-			<p>4/day (5 in lair), if you fail a saving throw, you can choose to succeed instead.</p>
-		</description>
-		<sheet>
-			<description>4/day auto-save success.</description>
-		</sheet>
-	</element>
+  <element name="Legendary Resistance" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_LEG_RES">
+    <description>
+      <p>4/day (5 in lair), if you fail a saving throw, you can choose to succeed instead.</p>
+    </description>
+    <sheet>
+      <description>4/day auto-save success.</description>
+    </sheet>
+  </element>
 
-	<!-- FEAR AURA -->
-	<element name="Fear Aura" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_FEAR_AURA">
-		<description>
-			<p>Creatures within 60 feet must succeed on a Wisdom saving throw or become frightened.</p>
-		</description>
-		<sheet>
-			<description>60 ft fear aura.</description>
-		</sheet>
-	</element>
+  <element name="Fear Aura" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_FEAR_AURA">
+    <description>
+      <p>Creatures within 60 feet must succeed on a Wisdom saving throw or become frightened.</p>
+    </description>
+    <sheet>
+      <description>60 ft fear aura.</description>
+    </sheet>
+  </element>
 
-	<!-- TOUCH -->
-	<element name="Paralyzing Touch" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_PARALYZING_TOUCH">
-		<description>
-			<p>Melee Spell Attack: 3d6 cold damage + paralyzed.</p>
-		</description>
-		<sheet>
-			<description>3d6 cold + paralyze.</description>
-		</sheet>
-	</element>
+  <element name="Paralyzing Touch" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_PARALYZING_TOUCH">
+    <description>
+      <p>Melee Spell Attack: 3d6 cold damage + paralyzed.</p>
+    </description>
+    <sheet>
+      <description>3d6 cold + paralyze.</description>
+    </sheet>
+  </element>
 
 </elements>
