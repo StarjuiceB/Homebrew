@@ -1,11 +1,13 @@
-<info>
-	<name>Vedalken - Lich (Morrigan Xanderreef)</name>
-	<description>Legendary Vedalken Lich NPC</description>
-	<author>Dion</author>
-	<update version="0.0.1">
-		<file name="vedalken-lich-v2.xml" url="https://raw.githubusercontent.com/StarjuiceB/Homebrew/main/vedalken-lich-v2.xml" />
-	</update>
-</info>
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Vedalken - Lich (Morrigan Xanderreef)</name>
+		<description>Legendary Vedalken Lich NPC</description>
+		<author>Dion</author>
+		<update version="0.0.1">
+			<file name="vedalken-lich-v2.xml" url="https://raw.githubusercontent.com/StarjuiceB/Homebrew/main/vedalken-lich-v2.xml" />
+		</update>
+	</info>
 
 	<element name="Vedalken - Lich (Morrigan Xanderreef)" type="Race" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACE_VEDALKEN_LICH_MORRIGAN">
 		<description>
