@@ -55,6 +55,9 @@
 			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_LEGENDARY_RESISTANCE" />
 			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_FEAR_AURA" />
 			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_PARALYZING_TOUCH" />
+			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_DISPASSION" />
+			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_PRECISION" />
+			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_AMPHIBIOUS" />
 		</rules>
 	</element>
 
@@ -155,6 +158,34 @@
 		</description>
 		<sheet>
 			<description>3d6 cold damage plus possible paralysis.</description>
+		</sheet>
+	</element>
+
+	<element name="Vedalken Dispassion" type="Racial Trait" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_DISPASSION">
+	<description>
+			<p>You have advantage on all Intelligence, Wisdom, and Charisma saving throws.</p>
+		</description>
+		<sheet>
+			<description>Advantage on all INT, WIS, CHA saving throws.</description>
+		</sheet>
+	</element>
+
+	<element name="Tireless Precision" type="Racial Trait" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_PRECISION">
+		<description>
+			<p>Whenever you make an ability check with a chosen skill or tool, roll a d4 and add the number rolled to the check’s total.</p>
+		</description>
+		<sheet>
+			<description>Add 1d4 to chosen skill/tool checks.</description>
+		</sheet>
+	</element>
+
+	<element name="Partially Amphibious" type="Racial Trait" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_AMPHIBIOUS">
+		<description>
+			<p>By absorbing oxygen through your skin, you can breathe underwater for up to 1 hour.</p>
+			<p class="indent">Once you've reached that limit, you can't use this trait again until you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>Breathe underwater for 1 hour (long rest recharge).</description>
 		</sheet>
 	</element>
 </elements>
