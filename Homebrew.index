@@ -9,8 +9,3 @@
     <file name="vedalken-lich-v2.xml" url="https://raw.githubusercontent.com/StarjuiceB/Homebrew/main/vedalken-lich-v2.xml" />
   </files>
 </index>
-
-
-<update version="0.0.1">
-			<file name="AuroraLegacy.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/AuroraLegacy.index" />
-		</update>
