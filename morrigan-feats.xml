@@ -48,6 +48,7 @@ Four-Armed: Four arms, but only two can wield weapons or shields at once.</descr
 				<li><strong>Disrupt Life.</strong> Each non-Undead creature of your choice in a 20-foot emanation originating from you must make a DC 20 Constitution saving throw, taking 31 (9d6) necrotic damage on a failed save, or half as much damage on a successful one. Once you use this ability, you can’t use it again until the start of your next turn.</li>
 				<li><strong>Frightening Gaze.</strong> You cast <i>fear</i>, using the same spellcasting ability as your Spellcasting trait. Once you use this ability, you can’t use it again until the start of your next turn.</li>
 				<li><strong>Protective Magic (Reaction).</strong> When a creature triggers the casting of <i>counterspell</i> or <i>shield</i>, you cast that spell in response, using the same spellcasting ability as your Spellcasting trait.</li>
+				<li><strong>Aura of Cold and Fear.</strong> You can choose to activate or suppress this aura. While active, at the start of each of your turns, hostile creatures within 30 feet of you must succeed on a DC 18 Wisdom saving throw or become frightened of you until the end of their next turn. A creature that succeeds on this saving throw is immune to this effect until the start of your next turn. Additionally, a creature that starts its turn in this aura takes 5 cold damage.</li>
 				<li><strong>Paralyzing Touch.</strong> <i>Melee Spell Attack:</i> your spell attack modifier to hit, reach 5 ft., one living creature. On a hit, the target takes 15 (3d6 + 5) cold damage and must succeed on a Constitution saving throw against your spell save DC or become paralyzed for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on a success. A <i>remove curse</i>, <i>greater restoration</i>, or similar magic also ends this effect.</li>
 				<li>While paralyzed in this way, the target appears dead to casual inspection, though a successful DC 20 Wisdom (Perception) or DC 15 Wisdom (Medicine) check reveals that it is still alive.</li>
 				<li><strong>Eldritch Burst.</strong> <i>Melee or Ranged Spell Attack:</i> +12 to hit, reach 5 ft. or range 120 ft., one target. <i>Hit:</i> 31 (4d12 + 5) force damage.</li>
@@ -59,12 +60,13 @@ Deathly Teleport: Teleport up to 60 ft.; creatures within 10 ft. of the space yo
 Disrupt Life: Non-Undead creatures of your choice in a 20-ft. emanation make a DC 20 Constitution save, taking 9d6 necrotic damage on a failure, or half on a success.
 Frightening Gaze: Cast fear.
 Protective Magic (Reaction): Cast counterspell or shield in response to its trigger.
+Aura of Cold and Fear: You can activate or suppress this aura. While active, hostile creatures within 30 ft. must succeed on a DC 18 Wisdom save or be frightened until the end of their next turn. On a successful save, a creature is immune to this effect until the start of your next turn. Creatures that start their turn in the aura take 5 cold damage.
 Paralyzing Touch: Melee Spell Attack; 3d6 + 5 cold damage, and the target may be paralyzed for 1 minute. Remove curse, greater restoration, or similar magic ends the effect. A creature paralyzed this way appears dead to casual inspection.
 Eldritch Burst: Melee or Ranged Spell Attack; 4d12 + 5 force damage.</description>
 		</sheet>
 	</element>
 
-	<element name="Speaker’s Corruption" type="Feat" source="Aurora Legacy" id="ID_DION_AURORALEGACY_FEAT_SPEAKERS_CORRUPTION">
+	<element name="Speaker's Corruption" type="Feat" source="Aurora Legacy" id="ID_DION_AURORALEGACY_FEAT_SPEAKERS_CORRUPTION">
 		<description>
 			<p>As an action, each summoned creature of your choice within 120 feet of you must succeed on a DC 18 Wisdom saving throw or fall under your influence for 1 minute.</p>
 			<p class="indent">While affected in this way, the creature is under the effects of <i>dominate monster</i>. The creature’s eyes glow red for the duration.</p>
@@ -78,6 +80,26 @@ A summoned creature is any creature brought into being or called to the battlefi
 		</sheet>
 		<rules>
 			<stat name="speaker's corruption:uses" value="proficiency" />
+		</rules>
+	</element>
+
+	<element name="Speaker's Disruption" type="Feat" source="Aurora Legacy" id="ID_DION_AURORALEGACY_FEAT_SPEAKERS_DISRUPTION">
+		<description>
+			<p>As an action, you exert your will over the spirits bound within magic.</p>
+			<p class="indent">Choose any number of conjured creatures, spirits, or magical manifestations within 120 feet of you that were created by spells or magical effects.</p>
+			<p class="indent">For each chosen effect, the original caster must succeed on a spellcasting ability check against your spell save DC, or you seize control of that effect until the end of your next turn.</p>
+			<p class="indent">While you control an effect, its appearance becomes visibly corrupted—its form twisting into an unnatural, radiant red as your magic overtakes it.</p>
+			<p class="indent">While under your control, each time the effect would activate, resolve, or be directed, you choose how it behaves. You can redirect the effect to a different target or area within its normal range, move the effect up to 30 feet to a space you can see if it can move, choose the targets affected by the effect, or prevent the effect from affecting creatures of your choice.</p>
+			<p class="indent">You can use this ability a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{speaker's disruption:uses}}/Long Rest" action="Action">
+			<description>Choose any number of conjured creatures, spirits, or magical manifestations within 120 ft. that were created by spells or magical effects.
+For each chosen effect, the original caster must succeed on a spellcasting ability check against your spell save DC, or you seize control of that effect until the end of your next turn.
+Controlled effects become visibly corrupted into an unnatural radiant red.
+While under your control, each time an effect would activate, resolve, or be directed, you choose how it behaves. You can redirect it, move it up to 30 ft. if it can move, choose its targets, or prevent it from affecting creatures of your choice.</description>
+		</sheet>
+		<rules>
+			<stat name="speaker's disruption:uses" value="proficiency" />
 		</rules>
 	</element>
 </elements>
