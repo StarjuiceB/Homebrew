@@ -10,5 +10,6 @@
   </info>
   <files>
     <file name="vedalken-lich-v2.xml" url="https://raw.githubusercontent.com/StarjuiceB/Homebrew/main/vedalken-lich-v2.xml" />
+    <file name="morrigan-feats.xml" url="https://raw.githubusercontent.com/StarjuiceB/Homebrew/main/morrigan-feats.xml" />
   </files>
 </index>
