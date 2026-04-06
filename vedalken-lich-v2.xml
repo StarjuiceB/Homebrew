@@ -1,172 +1,161 @@
-<?xml version="1.0" encoding="utf-8"?>
-<elements>
-  <info>
-    <name>Vedalken - Lich (Morrigan Xanderreef)</name>
-    <description>Legendary Vedalken Lich NPC</description>
-    <author>Homebrew</author>
-  </info>
+<info>
+	<name>Vedalken - Lich (Morrigan Xanderreef)</name>
+	<description>Legendary Vedalken Lich NPC</description>
+	<author>Dion</author>
+	<update version="0.0.1">
+		<file name="vedalken-lich-v2.xml" url="https://raw.githubusercontent.com/StarjuiceB/Homebrew/main/vedalken-lich-v2.xml" />
+	</update>
+</info>
 
-  <!-- ===================== RACE ===================== -->
+	<element name="Vedalken - Lich (Morrigan Xanderreef)" type="Race" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACE_VEDALKEN_LICH_MORRIGAN">
+		<description>
+			<p><strong>Morrigan Xanderreef</strong> was a revered Speaker of Spirits within Cnidaria and necromancer, known for his mastery of life and death and his ruthless political strategies.</p>
+			<p class="indent">A master of necromancy, Morrigan possessed a profound understanding of life, death, and arcane manipulation. His experiments were precise, calculated, and deeply scholarly - yet driven by a desire to rival the gods themselves.</p>
+			<p class="indent">Despite his intellect, Morrigan was flamboyant, arrogant, and indulgent. He reveled in attention, weaving grand narratives about his power and destiny while manipulating those around him.</p>
+			<p class="indent">Warned of a coming cataclysm, Morrigan chose not salvation - but escape. Through lichdom, he abandoned responsibility and embraced eternal freedom.</p>
+			<p class="indent">Now known as the Sovereign of the Maelstrom, Morrigan exists in decadent unlife, pursuing power, chaos, and domination over death itself.</p>
 
-  <element name="Vedalken - Lich (Morrigan Xanderreef)" type="Race" source="Dragonlance Homebrew" id="ID_RACE_VEDALKEN_LICH_MORRIGAN">
-    <description>
-      <p><strong>Morrigan Xanderreef</strong> was a revered Speaker of Spirits within Cnidaria and necromancer, known for his mastery of life and death and his ruthless political strategies.</p>
+			<h4>VEDALKEN LICH TRAITS</h4>
+			<p>Your vedalken lich character has the following racial traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 4, your Wisdom score increases by 2, and your Charisma score increases by 4.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Four Armed.</em></strong> You have four slender arms that can hold and manipulate objects, or be used to cast spells. Only two may be used to wield weapons or shields at any time.</p>
+			<p class="indent"><strong><em>Perfect Undeath.</em></strong> Your form is sustained entirely by necromantic will. You are immune to effects that would reduce your maximum hit points, age you, or magically alter your form against your will.</p>
+			<p class="indent"><strong><em>Lich Physiology.</em></strong> You are an undead creature. You possess extensive damage and condition immunities, and are resistant to effects that would alter your body or mind against your will.</p>
+			<p class="indent"><strong><em>Lich's Willpower.</em></strong> Your maximum hit points can't be reduced by any means.</p>
+			<p class="indent"><strong><em>Legendary Actions.</em></strong> Immediately after another creature's turn, the lich can expend a use to take a special action such as teleporting, disrupting life, or unleashing a frightening gaze.</p>
+			<p class="indent"><strong><em>Speaker's Corruption.</em></strong> As an action, you may charm summoned creatures within 120 feet.</p>
+			<p class="indent"><strong><em>Spirit Jar.</em></strong> If destroyed, you reform in 1d10 days as long as your phylactery exists.</p>
+			<p class="indent"><strong><em>Legendary Resistance.</em></strong> If you fail a saving throw, you can choose to succeed instead a limited number of times per day.</p>
+			<p class="indent"><strong><em>Fear Aura.</em></strong> Creatures within 60 feet may become frightened.</p>
+			<p class="indent"><strong><em>Paralyzing Touch.</em></strong> Your touch carries freezing necromantic power that can leave foes paralyzed.</p>
+		</description>
 
-      <p>A master of necromancy, Morrigan possessed a profound understanding of life, death, and arcane manipulation. His experiments were precise, calculated, and deeply scholarly - yet driven by a desire to rival the gods themselves.</p>
+		<setters>
+			<set name="names-format">Morrigan Xanderreef</set>
+			<set name="height" modifier="2d10">6'2"</set>
+			<set name="weight" modifier="2d4">160 lb.</set>
+		</setters>
 
-      <p>Despite his intellect, Morrigan was flamboyant, arrogant, and indulgent. He reveled in attention, weaving grand narratives about his power and destiny while manipulating those around him.</p>
+		<sheet display="false" />
 
-      <p>Warned of a coming cataclysm, Morrigan chose not salvation - but escape. Through lichdom, he abandoned responsibility and embraced eternal freedom.</p>
+		<rules>
+			<stat name="intelligence" value="4" />
+			<stat name="wisdom" value="2" />
+			<stat name="charisma" value="4" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_FOUR_ARMED" />
+			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_PERFECT_UNDEATH" />
+			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_PHYSIOLOGY" />
+			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_WILLPOWER" />
+			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_LEGENDARY_ACTIONS" />
+			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_SPEAKER_CORRUPTION" />
+			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_PHYLACTERY" />
+			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_LEGENDARY_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_FEAR_AURA" />
+			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_PARALYZING_TOUCH" />
+		</rules>
+	</element>
 
-      <p>Now known as the Sovereign of the Maelstrom, Morrigan exists in decadent unlife, pursuing power, chaos, and domination over death itself.</p>
-    </description>
+	<element name="Four Armed" type="Racial Trait" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_FOUR_ARMED">
+		<description>
+			<p>You have four slender arms that can hold and manipulate objects, or be used to cast spells.</p>
+			<p class="indent">Only two may be used to wield weapons or shields at any time.</p>
+		</description>
+		<sheet>
+			<description>Four arms; only two usable for weapons or shields.</description>
+		</sheet>
+	</element>
 
-    <setters>
-      <set name="names-format">Morrigan Xanderreef</set>
-    </setters>
+	<element name="Perfect Undeath" type="Racial Trait" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_PERFECT_UNDEATH">
+		<description>
+			<p>Your form is sustained entirely by necromantic will.</p>
+			<p class="indent">You are immune to effects that would reduce your maximum hit points, age you, or magically alter your form against your will.</p>
+		</description>
+		<sheet>
+			<description>Immune to max HP reduction, aging, and forced transformation.</description>
+		</sheet>
+	</element>
 
-    <sheet display="false"/>
+	<element name="Lich Physiology" type="Racial Trait" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_PHYSIOLOGY">
+		<description>
+			<p>You are an undead creature.</p>
+			<p class="indent"><strong>Damage Immunities:</strong> Cold, Lightning, Necrotic, Poison.</p>
+			<p class="indent"><strong>Condition Immunities:</strong> Charmed, Exhaustion, Frightened, Paralyzed, Poisoned.</p>
+			<p class="indent"><strong>Additional Immunities (3E Lich):</strong> You are immune to polymorph effects, unless you willingly accept effects you cast on yourself, and are immune to mind-affecting effects.</p>
+		</description>
+		<sheet>
+			<description>Undead. Immune to cold, lightning, necrotic, poison, charmed, exhaustion, frightened, paralyzed, poisoned, polymorph, and mind-affecting effects.</description>
+		</sheet>
+	</element>
 
-    <rules>
-      <stat name="intelligence" value="4"/>
-      <stat name="wisdom" value="2"/>
-      <stat name="charisma" value="4"/>
+	<element name="Lich's Willpower" type="Racial Trait" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_WILLPOWER">
+		<description>
+			<p>Your maximum hit points can't be reduced by any means.</p>
+		</description>
+		<sheet>
+			<description>Your maximum hit points can't be reduced.</description>
+		</sheet>
+	</element>
 
-      <stat name="innate speed" value="30" bonus="base"/>
-      <grant type="Size" id="ID_SIZE_MEDIUM"/>
+	<element name="Legendary Actions" type="Racial Trait" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_LEGENDARY_ACTIONS">
+		<description>
+			<p><strong>Legendary Action Uses:</strong> 3 (4 in Lair).</p>
+			<p class="indent">Immediately after another creature's turn, the lich can expend a use to take one of the following actions.</p>
+			<p class="indent"><strong>Deathly Teleport.</strong> Teleport 60 feet; nearby creatures take necrotic damage.</p>
+			<p class="indent"><strong>Disrupt Life.</strong> Deal area necrotic damage.</p>
+			<p class="indent"><strong>Frightening Gaze.</strong> Cast fear.</p>
+		</description>
+		<sheet>
+			<description>3 Legendary Actions per round.</description>
+		</sheet>
+	</element>
 
-      <grant type="Racial Trait" id="ID_LICH_TRAIT_WILLPOWER"/>
-      <grant type="Racial Trait" id="ID_LICH_TRAIT_LEGENDARY_ACTIONS"/>
-      <grant type="Racial Trait" id="ID_LICH_TRAIT_SPEAKER_CORRUPTION"/>
-      <grant type="Racial Trait" id="ID_LICH_TRAIT_PHYSIOLOGY"/>
-      <grant type="Racial Trait" id="ID_LICH_TRAIT_PARALYZING_TOUCH"/>
-      <grant type="Racial Trait" id="ID_LICH_TRAIT_FEAR_AURA"/>
-      <grant type="Racial Trait" id="ID_LICH_TRAIT_LEG_RES"/>
-      <grant type="Racial Trait" id="ID_LICH_TRAIT_PHYLACTERY"/>
-      <grant type="Racial Trait" id="ID_LICH_TRAIT_PERFECT_UNDEATH"/>
-      <grant type="Racial Trait" id="ID_TRAIT_FOUR_ARMED"/>
-    </rules>
-  </element>
+	<element name="Speaker's Corruption" type="Racial Trait" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_SPEAKER_CORRUPTION">
+		<description>
+			<p>As an action, charm all summoned creatures within 120 feet on a failed DC 18 Wisdom saving throw for 1 minute.</p>
+		</description>
+		<sheet>
+			<description>Charm summons within 120 feet.</description>
+		</sheet>
+	</element>
 
-  <!-- ===================== TRAITS ===================== -->
+	<element name="Spirit Jar" type="Racial Trait" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_PHYLACTERY">
+		<description>
+			<p>If destroyed, you reform in 1d10 days as long as your phylactery exists.</p>
+			<p class="indent">You regain all hit points upon reforming.</p>
+		</description>
+		<sheet>
+			<description>Reform in 1d10 days if phylactery survives.</description>
+		</sheet>
+	</element>
 
-  <element name="Four Armed" type="Racial Trait" source="Homebrew" id="ID_TRAIT_FOUR_ARMED">
-    <description>
-      <p>You have four slender arms that can hold and manipulate objects, or be used to cast spells.</p>
-      <p>Only two may be used to wield weapons or shields at any time.</p>
-    </description>
-    <sheet>
-      <description>Four arms; only two usable for weapons/shields.</description>
-    </sheet>
-  </element>
+	<element name="Legendary Resistance" type="Racial Trait" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_LEGENDARY_RESISTANCE">
+		<description>
+			<p>4/day (5 in lair), if you fail a saving throw, you can choose to succeed instead.</p>
+		</description>
+		<sheet>
+			<description>4/day automatic save success.</description>
+		</sheet>
+	</element>
 
-  <element name="Perfect Undeath" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_PERFECT_UNDEATH">
-    <description>
-      <p>Your form is sustained entirely by necromantic will.</p>
-      <p>You are immune to effects that would reduce your maximum hit points, age you, or magically alter your form against your will.</p>
-    </description>
-    <sheet>
-      <description>Immune to max HP reduction, aging, and forced transformation.</description>
-    </sheet>
-  </element>
+	<element name="Fear Aura" type="Racial Trait" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_FEAR_AURA">
+		<description>
+			<p>Creatures within 60 feet must succeed on a Wisdom saving throw or become frightened.</p>
+		</description>
+		<sheet>
+			<description>60-foot fear aura.</description>
+		</sheet>
+	</element>
 
-  <element name="Lich Physiology" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_PHYSIOLOGY">
-    <description>
-      <p>You are an undead creature.</p>
-
-      <p><strong>Damage Immunities:</strong> Cold, Lightning, Necrotic, Poison.</p>
-      <p><strong>Condition Immunities:</strong> Charmed, Exhaustion, Frightened, Paralyzed, Poisoned.</p>
-
-      <p><strong>Additional Immunities (3E Lich):</strong> You are immune to polymorph effects (though you may choose to be affected by polymorph effects you cast on yourself) and all mind-affecting effects.</p>
-
-      <p>You do not have a Constitution score.</p>
-    </description>
-
-    <sheet>
-      <description>Undead. Immune: cold, lightning, necrotic, poison. Immune: charmed, frightened, paralyzed, poisoned, exhaustion. Immune to polymorph (self-exception) and mind-affecting effects.</description>
-    </sheet>
-
-    <rules>
-      <grant type="Damage Immunity" id="ID_DAMAGE_IMMUNITY_COLD"/>
-      <grant type="Damage Immunity" id="ID_DAMAGE_IMMUNITY_LIGHTNING"/>
-      <grant type="Damage Immunity" id="ID_DAMAGE_IMMUNITY_NECROTIC"/>
-      <grant type="Damage Immunity" id="ID_DAMAGE_IMMUNITY_POISON"/>
-
-      <grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_CHARMED"/>
-      <grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_EXHAUSTION"/>
-      <grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_FRIGHTENED"/>
-      <grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_PARALYZED"/>
-      <grant type="Condition Immunity" id="ID_CONDITION_IMMUNITY_POISONED"/>
-    </rules>
-  </element>
-
-  <element name="Lich's Willpower" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_WILLPOWER">
-    <description>
-      <p>Your maximum hit points can't be reduced by any means.</p>
-    </description>
-    <sheet>
-      <description>Your maximum hit points can't be reduced.</description>
-    </sheet>
-  </element>
-
-  <element name="Legendary Actions" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_LEGENDARY_ACTIONS">
-    <description>
-      <p><strong>Legendary Action Uses:</strong> 3 (4 in Lair).</p>
-      <p>Immediately after another creature's turn, the lich can expend a use to take one of the following actions.</p>
-
-      <p><strong>Deathly Teleport.</strong> Teleport 60 ft; nearby creatures take necrotic damage.</p>
-      <p><strong>Disrupt Life.</strong> AoE necrotic damage.</p>
-      <p><strong>Frightening Gaze.</strong> Cast Fear.</p>
-    </description>
-    <sheet>
-      <description>3 Legendary Actions per round.</description>
-    </sheet>
-  </element>
-
-  <element name="Speaker's Corruption" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_SPEAKER_CORRUPTION">
-    <description>
-      <p>As an action, charm all summoned creatures within 120 ft (DC 18 Wis, 1 min).</p>
-    </description>
-    <sheet>
-      <description>Charm summons (120 ft).</description>
-    </sheet>
-  </element>
-
-  <element name="Spirit Jar" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_PHYLACTERY">
-    <description>
-      <p>If destroyed, you reform in 1d10 days as long as your phylactery exists.</p>
-      <p>You regain all hit points upon reforming.</p>
-    </description>
-    <sheet>
-      <description>Reform in 1d10 days if phylactery survives.</description>
-    </sheet>
-  </element>
-
-  <element name="Legendary Resistance" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_LEG_RES">
-    <description>
-      <p>4/day (5 in lair), if you fail a saving throw, you can choose to succeed instead.</p>
-    </description>
-    <sheet>
-      <description>4/day auto-save success.</description>
-    </sheet>
-  </element>
-
-  <element name="Fear Aura" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_FEAR_AURA">
-    <description>
-      <p>Creatures within 60 feet must succeed on a Wisdom saving throw or become frightened.</p>
-    </description>
-    <sheet>
-      <description>60 ft fear aura.</description>
-    </sheet>
-  </element>
-
-  <element name="Paralyzing Touch" type="Racial Trait" source="Homebrew" id="ID_LICH_TRAIT_PARALYZING_TOUCH">
-    <description>
-      <p>Melee Spell Attack: 3d6 cold damage + paralyzed.</p>
-    </description>
-    <sheet>
-      <description>3d6 cold + paralyze.</description>
-    </sheet>
-  </element>
-
+	<element name="Paralyzing Touch" type="Racial Trait" source="Aurora Legacy" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_PARALYZING_TOUCH">
+		<description>
+			<p>Melee Spell Attack: 3d6 cold damage and the target may become paralyzed.</p>
+		</description>
+		<sheet>
+			<description>3d6 cold damage plus possible paralysis.</description>
+		</sheet>
+	</element>
 </elements>
