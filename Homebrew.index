@@ -4,6 +4,9 @@
     <name>Aurora Legacy</name>
     <description>Homebrew content</description>
     <author>Dion</author>
+    <update version="0.0.1">
+      <file name="Homebrew.index" url="https://raw.githubusercontent.com/StarjuiceB/Homebrew/main/Homebrew.index" />
+    </update>
   </info>
   <files>
     <file name="vedalken-lich-v2.xml" url="https://raw.githubusercontent.com/StarjuiceB/Homebrew/main/vedalken-lich-v2.xml" />
