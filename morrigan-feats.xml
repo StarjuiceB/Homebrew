@@ -1,82 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="2.0" encoding="utf-8"?>
 <elements>
 	<info>
 		<name>Morrigan Feats</name>
 		<description>Custom feats for Morrigan Xanderreef.</description>
 		<author>Dion</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="morrigan-feats.xml" url="https://raw.githubusercontent.com/StarjuiceB/Homebrew/main/morrigan-feats.xml" />
 		</update>
 	</info>
 
 	<element name="Lich Racial Abilities" type="Feat" source="Aurora Legacy" id="ID_DION_AURORALEGACY_FEAT_LICH_RACIAL_ABILITIES">
 		<description>
+			<p><strong>LICH RACIAL ABILITIES</strong></p>
 			<p>You have the following lich racial abilities:</p>
-			<ul>
-				<li><strong>Lich Physiology.</strong> You are an Undead.</li>
-				<li>You have resistance to cold and lightning damage.</li>
-				<li>You are immune to necrotic and poison damage, and to the charmed, exhaustion, frightened, paralyzed, and poisoned conditions.</li>
-				<li>You are immune to effects that alter your form, such as polymorph, unless you willingly accept the effect or cast it on yourself.</li>
-				<li>You are immune to mind-affecting magical effects, unless you choose otherwise.</li>
-				<li>You have truesight out to 120 feet.</li>
-				<li><strong>Perfect Undeath.</strong> Your body is sustained entirely by necromantic will. Your hit point maximum can’t be reduced, and you are immune to magical aging and effects that would forcibly transform your body against your will.</li>
-				<li><strong>Lich’s Willpower.</strong> Your hit point maximum can’t be reduced by any means.</li>
-				<li><strong>Lich’s Resilience.</strong> Your body is unnaturally durable. You gain a +5 bonus to Armor Class.</li>
-				<li><strong>Lich Hit Dice.</strong> Your Hit Dice become d12s. Any Hit Dice you gain from a class or other source are d12s instead.</li>
-				<li><strong>Spirit Jar.</strong> If you are destroyed while your spirit jar remains intact, you reform in 1d10 days with all your hit points restored. Your new body appears in an unoccupied space within your lair.</li>
-				<li><strong>Legendary Resistance (4/Day; 5/Day in Lair).</strong> If you fail a saving throw, you can choose to succeed instead.</li>
-				<li><strong>Four-Armed.</strong> You have four arms capable of holding and manipulating objects and performing somatic components. However, only two of these arms can be used to wield weapons or shields at any one time.</li>
-			</ul>
+			<p><strong>Lich Physiology.</strong> You are an Undead.</p>
+			<p class="indent">You have resistance to cold and lightning damage.</p>
+			<p class="indent">You are immune to necrotic and poison damage, and to the charmed, exhaustion, frightened, paralyzed, and poisoned conditions.</p>
+			<p class="indent">You are immune to effects that alter your form, such as polymorph, unless you willingly accept the effect or cast it on yourself.</p>
+			<p class="indent">You are immune to mind-affecting magical effects, unless you choose otherwise.</p>
+			<p class="indent">You have truesight out to 120 feet.</p>
+			<p><strong>Perfect Undeath.</strong> Your body is sustained entirely by necromantic will. Your hit point maximum can’t be reduced, and you are immune to magical aging and effects that would forcibly transform your body against your will.</p>
+			<p><strong>Lich’s Willpower.</strong> Your hit point maximum can’t be reduced by any means.</p>
+			<p><strong>Lich’s Resilience.</strong> Your body is unnaturally durable. You gain a +5 bonus to Armor Class.</p>
+			<p><strong>Lich Hit Dice.</strong> Your Hit Dice become d12s. Any Hit Dice you gain from a class or other source are d12s instead.</p>
+			<p><strong>Spirit Jar.</strong> If you are destroyed while your spirit jar remains intact, you reform in 1d10 days with all your hit points restored. Your new body appears in an unoccupied space within your lair.</p>
+			<p><strong>Legendary Resistance (4/Day; 5/Day in Lair).</strong> If you fail a saving throw, you can choose to succeed instead.</p>
+			<p><strong>Four-Armed.</strong> You have four arms capable of holding and manipulating objects and performing somatic components. However, only two of these arms can be used to wield weapons or shields at any one time.</p>
+			<p><strong>Lich Turn Resistance.</strong> You have advantage on saving throws against any effect that turns undead.</p>
 		</description>
 		<sheet>
-			<description>Lich Physiology: Undead; resist cold and lightning; immune necrotic, poison, charmed, exhaustion, frightened, paralyzed, poisoned, unwilling polymorph, and mind-affecting magical effects; truesight 120 ft.
-Perfect Undeath: Your hit point maximum can’t be reduced. You are immune to magical aging and forced transformation.
-Lich’s Resilience: +5 AC.
-Lich Hit Dice: Your Hit Dice are d12s.
-Spirit Jar: Reform in 1d10 days in your lair if your spirit jar survives.
-Legendary Resistance (4/Day; 5/Day in Lair): If you fail a saving throw, you can choose to succeed instead.
-Four-Armed: Four arms, but only two can wield weapons or shields at once.</description>
+			<description>Lich Physiology. You are an Undead.
+You have resistance to cold and lightning damage.
+You are immune to necrotic and poison damage, and to the charmed, exhaustion, frightened, paralyzed, and poisoned conditions.
+You are immune to effects that alter your form, such as polymorph, unless you willingly accept the effect or cast it on yourself.
+You are immune to mind-affecting magical effects, unless you choose otherwise.
+You have truesight out to 120 feet.
+
+Perfect Undeath. Your body is sustained entirely by necromantic will. Your hit point maximum can’t be reduced, and you are immune to magical aging and effects that would forcibly transform your body against your will.
+
+Lich’s Willpower. Your hit point maximum can’t be reduced by any means.
+
+Lich’s Resilience. Your body is unnaturally durable. You gain a +5 bonus to Armor Class.
+
+Lich Hit Dice. Your Hit Dice become d12s. Any Hit Dice you gain from a class or other source are d12s instead.
+
+Spirit Jar. If you are destroyed while your spirit jar remains intact, you reform in 1d10 days with all your hit points restored. Your new body appears in an unoccupied space within your lair.
+
+Legendary Resistance (4/Day; 5/Day in Lair). If you fail a saving throw, you can choose to succeed instead.
+
+Four-Armed. You have four arms capable of holding and manipulating objects and performing somatic components. However, only two of these arms can be used to wield weapons or shields at any one time.
+
+Lich Turn Resistance. You have advantage on saving throws against any effect that turns undead.</description>
+		</sheet>
+	</element>
+
+	<element name="Lich Legendary Abilities" type="Feat" source="Aurora Legacy" id="ID_DION_AURORALEGACY_FEAT_LICH_LEGENDARY_ABILITIES">
+		<description>
+			<p><strong>LICH LEGENDARY ABILITIES</strong></p>
+			<p>You have the following lich abilities:</p>
+			<p><strong>Legendary Actions (3/Round; 4/Round in Lair).</strong> Immediately after another creature’s turn, you can expend one legendary action to use one of the options below. You regain all expended legendary actions at the start of your turn.</p>
+			<p><strong>Deathly Teleport.</strong> You teleport up to 60 feet to an unoccupied space you can see. Each creature within 10 feet of the space you left takes 11 (2d10) necrotic damage.</p>
+			<p><strong>Disrupt Life.</strong> Each non-Undead creature of your choice in a 20-foot emanation originating from you must make a DC 20 Constitution saving throw, taking 31 (9d6) necrotic damage on a failed save, or half as much damage on a successful one. Once you use this ability, you can’t use it again until the start of your next turn.</p>
+			<p><strong>Frightening Gaze.</strong> You cast <i>fear</i>, using the same spellcasting ability as your Spellcasting trait. Once you use this ability, you can’t use it again until the start of your next turn.</p>
+		</description>
+		<sheet>
+			<description>Legendary Actions (3/Round; 4/Round in Lair). Immediately after another creature’s turn, you can expend one legendary action to use one of the options below. You regain all expended legendary actions at the start of your turn.
+
+Deathly Teleport. You teleport up to 60 feet to an unoccupied space you can see. Each creature within 10 feet of the space you left takes 11 (2d10) necrotic damage.
+
+Disrupt Life. Each non-Undead creature of your choice in a 20-foot emanation originating from you must make a DC 20 Constitution saving throw, taking 31 (9d6) necrotic damage on a failed save, or half as much damage on a successful one. Once you use this ability, you can’t use it again until the start of your next turn.
+
+Frightening Gaze. You cast fear, using the same spellcasting ability as your Spellcasting trait. Once you use this ability, you can’t use it again until the start of your next turn.</description>
 		</sheet>
 	</element>
 
 	<element name="Lich Abilities" type="Feat" source="Aurora Legacy" id="ID_DION_AURORALEGACY_FEAT_LICH_ABILITIES">
 		<description>
+			<p><strong>LICH ABILITIES</strong></p>
 			<p>You have the following lich abilities:</p>
-			<ul>
-				<li><strong>Legendary Actions (3/Round; 4/Round in Lair).</strong> Immediately after another creature’s turn, you can expend one legendary action to use one of the options below. You regain all expended legendary actions at the start of your turn.</li>
-				<li><strong>Deathly Teleport.</strong> You teleport up to 60 feet to an unoccupied space you can see. Each creature within 10 feet of the space you left takes 11 (2d10) necrotic damage.</li>
-				<li><strong>Disrupt Life.</strong> Each non-Undead creature of your choice in a 20-foot emanation originating from you must make a DC 20 Constitution saving throw, taking 31 (9d6) necrotic damage on a failed save, or half as much damage on a successful one. Once you use this ability, you can’t use it again until the start of your next turn.</li>
-				<li><strong>Frightening Gaze.</strong> You cast <i>fear</i>, using the same spellcasting ability as your Spellcasting trait. Once you use this ability, you can’t use it again until the start of your next turn.</li>
-				<li><strong>Protective Magic (Reaction).</strong> When a creature triggers the casting of <i>counterspell</i> or <i>shield</i>, you cast that spell in response, using the same spellcasting ability as your Spellcasting trait.</li>
-				<li><strong>Aura of Cold and Fear.</strong> You can choose to activate or suppress this aura. While active, at the start of each of your turns, hostile creatures within 30 feet of you must succeed on a DC 18 Wisdom saving throw or become frightened of you until the end of their next turn. A creature that succeeds on this saving throw is immune to this effect until the start of your next turn. Additionally, a creature that starts its turn in this aura takes 5 cold damage.</li>
-				<li><strong>Paralyzing Touch.</strong> <i>Melee Spell Attack:</i> your spell attack modifier to hit, reach 5 ft., one living creature. On a hit, the target takes 15 (3d6 + 5) cold damage and must succeed on a Constitution saving throw against your spell save DC or become paralyzed for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on a success. A <i>remove curse</i>, <i>greater restoration</i>, or similar magic also ends this effect.</li>
-				<li>While paralyzed in this way, the target appears dead to casual inspection, though a successful DC 20 Wisdom (Perception) or DC 15 Wisdom (Medicine) check reveals that it is still alive.</li>
-				<li><strong>Eldritch Burst.</strong> <i>Melee or Ranged Spell Attack:</i> +12 to hit, reach 5 ft. or range 120 ft., one target. <i>Hit:</i> 31 (4d12 + 5) force damage.</li>
-			</ul>
+			<p><strong>Protective Magic (Reaction).</strong> The lich casts <i>Counterspell</i> or <i>Shield</i> in response to the spell's trigger, using the same spellcasting ability as Spellcasting.</p>
+			<p><strong>Aura of Cold and Fear.</strong> You can choose to activate or suppress this aura. While active, at the start of each of your turns, hostile creatures within 30 feet of you must succeed on a DC 18 Wisdom saving throw or become frightened of you until the end of their next turn. A creature that succeeds on this saving throw is immune to this effect until the start of your next turn. Additionally, a creature that starts its turn in this aura takes 5 cold damage.</p>
+			<p><strong>Paralyzing Touch.</strong> <i>Melee Spell Attack:</i> your spell attack modifier to hit, reach 5 ft., one living creature. On a hit, the target takes 15 (3d6 + 5) cold damage and must succeed on a Constitution saving throw against your spell save DC or become paralyzed for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on a success. A <i>remove curse</i>, <i>greater restoration</i>, or similar magic also ends this effect.</p>
+			<p class="indent">While paralyzed in this way, the target appears dead to casual inspection, though a successful DC 20 Wisdom (Perception) or DC 15 Wisdom (Medicine) check reveals that it is still alive.</p>
+			<p><strong>Eldritch Burst.</strong> <i>Melee or Ranged Spell Attack:</i> +12 to hit, reach 5 ft. or range 120 ft., one target. <i>Hit:</i> 31 (4d12 + 5) force damage.</p>
 		</description>
 		<sheet>
-			<description>Legendary Actions (3/Round; 4/Round in Lair): regain all expended uses at the start of your turn.
-Deathly Teleport: Teleport up to 60 ft.; creatures within 10 ft. of the space you left take 2d10 necrotic damage.
-Disrupt Life: Non-Undead creatures of your choice in a 20-ft. emanation make a DC 20 Constitution save, taking 9d6 necrotic damage on a failure, or half on a success.
-Frightening Gaze: Cast fear.
-Protective Magic (Reaction): Cast counterspell or shield in response to its trigger.
-Aura of Cold and Fear: You can activate or suppress this aura. While active, hostile creatures within 30 ft. must succeed on a DC 18 Wisdom save or be frightened until the end of their next turn. On a successful save, a creature is immune to this effect until the start of your next turn. Creatures that start their turn in the aura take 5 cold damage.
-Paralyzing Touch: Melee Spell Attack; 3d6 + 5 cold damage, and the target may be paralyzed for 1 minute. Remove curse, greater restoration, or similar magic ends the effect. A creature paralyzed this way appears dead to casual inspection.
-Eldritch Burst: Melee or Ranged Spell Attack; 4d12 + 5 force damage.</description>
+			<description>Protective Magic (Reaction). The lich casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting.
+
+Aura of Cold and Fear. You can choose to activate or suppress this aura. While active, at the start of each of your turns, hostile creatures within 30 feet of you must succeed on a DC 18 Wisdom saving throw or become frightened of you until the end of their next turn. A creature that succeeds on this saving throw is immune to this effect until the start of your next turn. Additionally, a creature that starts its turn in this aura takes 5 cold damage.
+
+Paralyzing Touch. Melee Spell Attack: your spell attack modifier to hit, reach 5 ft., one living creature. On a hit, the target takes 15 (3d6 + 5) cold damage and must succeed on a Constitution saving throw against your spell save DC or become paralyzed for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on a success. A remove curse, greater restoration, or similar magic also ends this effect.
+
+While paralyzed in this way, the target appears dead to casual inspection, though a successful DC 20 Wisdom (Perception) or DC 15 Wisdom (Medicine) check reveals that it is still alive.
+
+Eldritch Burst. Melee or Ranged Spell Attack: +12 to hit, reach 5 ft. or range 120 ft., one target. Hit: 31 (4d12 + 5) force damage.</description>
 		</sheet>
 	</element>
 
 	<element name="Speaker's Corruption" type="Feat" source="Aurora Legacy" id="ID_DION_AURORALEGACY_FEAT_SPEAKERS_CORRUPTION">
 		<description>
+			<p><strong>SPEAKER'S CORRUPTION</strong></p>
 			<p>As an action, each summoned creature of your choice within 120 feet of you must succeed on a DC 18 Wisdom saving throw or fall under your influence for 1 minute.</p>
 			<p class="indent">While affected in this way, the creature is under the effects of <i>dominate monster</i>. The creature’s eyes glow red for the duration.</p>
 			<p class="indent">For this feature, a summoned creature is any creature brought into being or called to the battlefield by a spell or magical effect.</p>
 			<p class="indent">You can use this ability a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet usage="{{speaker's corruption:uses}}/Long Rest" action="Action">
-			<description>Each summoned creature of your choice within 120 ft. must succeed on a DC 18 Wisdom saving throw or fall under your influence for 1 minute.
-While affected, the creature is under the effects of dominate monster and its eyes glow red.
-A summoned creature is any creature brought into being or called to the battlefield by a spell or magical effect.</description>
+			<description>As an action, each summoned creature of your choice within 120 feet of you must succeed on a DC 18 Wisdom saving throw or fall under your influence for 1 minute.
+
+While affected in this way, the creature is under the effects of dominate monster. The creature’s eyes glow red for the duration.
+
+For this feature, a summoned creature is any creature brought into being or called to the battlefield by a spell or magical effect.
+
+You can use this ability a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
 		</sheet>
 		<rules>
 			<stat name="speaker's corruption:uses" value="proficiency" />
@@ -85,6 +121,7 @@ A summoned creature is any creature brought into being or called to the battlefi
 
 	<element name="Speaker's Disruption" type="Feat" source="Aurora Legacy" id="ID_DION_AURORALEGACY_FEAT_SPEAKERS_DISRUPTION">
 		<description>
+			<p><strong>SPEAKER'S DISRUPTION</strong></p>
 			<p>As an action, you exert your will over the spirits bound within magic.</p>
 			<p class="indent">Choose any number of conjured creatures, spirits, or magical manifestations within 120 feet of you that were created by spells or magical effects.</p>
 			<p class="indent">For each chosen effect, the original caster must succeed on a spellcasting ability check against your spell save DC, or you seize control of that effect until the end of your next turn.</p>
@@ -93,10 +130,17 @@ A summoned creature is any creature brought into being or called to the battlefi
 			<p class="indent">You can use this ability a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet usage="{{speaker's disruption:uses}}/Long Rest" action="Action">
-			<description>Choose any number of conjured creatures, spirits, or magical manifestations within 120 ft. that were created by spells or magical effects.
+			<description>As an action, you exert your will over the spirits bound within magic.
+
+Choose any number of conjured creatures, spirits, or magical manifestations within 120 feet of you that were created by spells or magical effects.
+
 For each chosen effect, the original caster must succeed on a spellcasting ability check against your spell save DC, or you seize control of that effect until the end of your next turn.
-Controlled effects become visibly corrupted into an unnatural radiant red.
-While under your control, each time an effect would activate, resolve, or be directed, you choose how it behaves. You can redirect it, move it up to 30 ft. if it can move, choose its targets, or prevent it from affecting creatures of your choice.</description>
+
+While you control an effect, its appearance becomes visibly corrupted—its form twisting into an unnatural, radiant red as your magic overtakes it.
+
+While under your control, each time the effect would activate, resolve, or be directed, you choose how it behaves. You can redirect the effect to a different target or area within its normal range, move the effect up to 30 feet to a space you can see if it can move, choose the targets affected by the effect, or prevent the effect from affecting creatures of your choice.
+
+You can use this ability a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
 		</sheet>
 		<rules>
 			<stat name="speaker's disruption:uses" value="proficiency" />
