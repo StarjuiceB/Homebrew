@@ -41,9 +41,6 @@
 		<sheet display="false" />
 
 		<rules>
-			<stat name="intelligence" value="4" />
-			<stat name="wisdom" value="2" />
-			<stat name="charisma" value="4" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Racial Trait" id="ID_DION_AURORALEGACY_RACIAL_TRAIT_VEDALKEN_LICH_FOUR_ARMED" />
