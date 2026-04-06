@@ -4,7 +4,7 @@
 		<name>Morrigan Feats</name>
 		<description>Custom feats for Morrigan Xanderreef.</description>
 		<author>Dion</author>
-		<update version="0.0.2">
+		<update version="0.0.1">
 			<file name="morrigan-feats.xml" url="https://raw.githubusercontent.com/StarjuiceB/Homebrew/main/morrigan-feats.xml" />
 		</update>
 	</info>
